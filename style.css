@@ -34,7 +34,7 @@ body {
 }
 
 #loader h1 {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 #loader.hidden {
   transform: translate(-50%, -50%) translateY(-100%);
@@ -97,5 +97,5 @@ li {
   }
 }
 a {
-    padding: 2rem;
+  padding: 2rem;
 }
