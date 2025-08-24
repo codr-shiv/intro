@@ -32,7 +32,12 @@ body {
   z-index: 9999;
   font-family: "Press Start 2P", system-ui;
 }
-
+@media (max-width: 600px) {
+  ul {
+    flex-direction: column; /* stack items vertically */
+    align-items: stretch;   /* optional */
+  }
+}
 #loader h1 {
   margin: 2rem 0;
 }
